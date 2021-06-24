@@ -1,14 +1,40 @@
-.links-wrapper {
-    height: 190px;
+/* Common Nav */
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover Actions */
+
+.links-wrapper > .links a:hover {
+    letter-spacing: 2px;
+}
+.stie-name a:hover {
+    letter-spacing: 2px;
+}
+
+/* right Column */
+
+.right-column {
+    height: 402px;
+    width: 100%;
     background-color: #11121b;
-    color:#cbcbcb;
-    padding: 60px 100px;
-    margin-top: -50px;
+    color: white;
+} 
+
+/* Left Column */
+
+.left-column {
+    height: 402px;
+    width: 100%;
+    background-color: #11121b;
+    color: white;
 }
-.links-wrapper > .links a {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color:white;
-}
+
+/* Center Column */
+
 .center-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -19,6 +45,20 @@
     display: flex;
     justify-content: space-between;
 }
+.links-wrapper {
+    height: 190px;
+    width: 500px ;
+    background-color: #11121b;
+    color:white;
+    padding: 60px 100px;
+    margin-top: -50px;
+}
+.links-wrapper > .links a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+}
+
+
 .links-wrapper > .links {
     width: 70px;
     text-align: center;
@@ -39,6 +79,7 @@
     align-items: center;
 }
 .stie-name a {
+    font-family: "Ubuntu Condenced", sans-serif;
     text-decoration: none;
     background-color: #11121b;
     color: #cbcbcb;
@@ -47,11 +88,4 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-}
-/* Hover Actions */
-.links-wrapper > .links a:hover {
-    letter-spacing: 2px;
-}
-.stie-name a:hover {
-    letter-spacing: 2px;
 }
