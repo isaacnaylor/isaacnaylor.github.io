@@ -40,14 +40,17 @@ body {
     color: white;
 }
 .Bedrockdownload {
-  border: white solid;
-    color: white;
-    background-color: #cea135;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  border-top: white solid 2px;
+  border-bottom: white solid 1px;
+  border-left: white solid 2px;
+  border-right:  white solid 2px;
+  color: white;
+  background-color: #cea135;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .Bedrockdownload h3 {
   position: absolute;
@@ -59,7 +62,10 @@ body {
 }
 
 .javadownload {
-  border: white solid;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  border-left: white solid 2px;
+  border-right:  white solid 2px;
   color: white;
   background-color: #cea135;
   height: 450px;
@@ -75,6 +81,27 @@ position: absolute;
 .javadownload p {
 margin-top: 80px;
 position: absolute;
+}
+
+.archive {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: #cea135;
+  height: 200px;
+  border-top: white solid 1px;
+  border-bottom: white solid 2px;
+  border-left: white solid 2px;
+  border-right:  white solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.archive a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 /* .parallax {
